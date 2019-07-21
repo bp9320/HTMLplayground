@@ -1,0 +1,19 @@
+{
+  "name": "htmlplayground",
+  "version": "1.0.0",
+  "description": "Where I play with HTML and CSS",
+  "main": "index.js",
+  "scripts": {
+    "sw": "sass ./resources/sass/main.scss ./resources/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bp9320/HTMLplayground.git"
+  },
+  "author": "Brian Pirot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bp9320/HTMLplayground/issues"
+  },
+  "homepage": "https://github.com/bp9320/HTMLplayground#readme"
+}
