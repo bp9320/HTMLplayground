@@ -1,0 +1,10 @@
+.row {
+    display: flex;
+    width: $display-width;
+    margin: 0 auto 3rem auto;
+
+    &--center {
+        justify-content: center;
+    }
+
+}

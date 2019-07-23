@@ -14,4 +14,65 @@ body {
   box-sizing: border-box;
 }
 
+.heading-primary {
+  font-family: "Monoton", cursive;
+  font-size: 5rem;
+  font-weight: 100;
+  letter-spacing: 3rem;
+  margin: 3rem 0;
+  text-align: center;
+  color: #c77431;
+}
+
+.heading-secondary {
+  color: #c77431;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  font-size: 3.5rem;
+  letter-spacing: 2rem;
+  margin: 3rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  color: #ebe3e2;
+  text-align: center;
+  letter-spacing: 0.3rem;
+}
+
+.u-margin-bottom-s {
+  margin-bottom: 2rem;
+}
+
+.u-margin-bottom-m {
+  margin-bottom: 4rem;
+}
+
+.u-margin-bottom-l {
+  margin-bottom: 8rem;
+}
+
+.row {
+  display: flex;
+  width: 114rem;
+  margin: 0 auto 3rem auto;
+}
+.row--center {
+  justify-content: center;
+}
+
+body {
+  background-color: #527ebb;
+}
+
+.pageDescription {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: black;
+}
+
 /*# sourceMappingURL=style.css.map */

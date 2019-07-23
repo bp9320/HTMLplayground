@@ -1,0 +1,33 @@
+.heading-primary {
+    font: {
+        family: 'Monoton', cursive;
+        size: 5rem;
+        weight: 100;
+    }
+    letter-spacing: 3rem;
+
+    margin: 3rem 0;
+
+    text-align: center;
+    color: $color-orange;
+}
+
+.heading-secondary {
+    color: $color-orange;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 3.5rem;
+    letter-spacing: 2rem;
+    margin: 3rem 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    color: $color-khaki;
+    text-align: center;
+    letter-spacing: .3rem;
+
+}

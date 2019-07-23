@@ -1,19 +1,21 @@
 // ABSTRACTS
-
+@import "abstracts/variables";
 
 // VENDORS
 
 
 // BASE
-@import "base/reset"
+@import "base/reset";
+@import "base/typography";
+@import "base/utilities";
 
 // LAYOUT
-
+@import "layouts/grid";
 
 // COMPONENTS
 
 
 // PAGES
-
+@import "pages/index";
 
 // THEMES
