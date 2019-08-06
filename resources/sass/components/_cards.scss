@@ -1,0 +1,86 @@
+.card {
+
+    width: 30rem;
+    height: 40rem;
+    position: relative;
+    perspective: 120rem;
+    
+    &__side {
+        height: 40rem;
+        width: 30rem;
+        color: var(--color-khaki-dark);
+        font-size: 3rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 1rem;
+        border: 2px solid black;
+        backface-visibility: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s ease-in-out;
+        
+        &--front {
+           
+            &-1 {
+                background-image: linear-gradient(to right, var(--color-orange-light), var(--color-orange-dark));
+            }
+           
+            &-2 {
+                background-image: linear-gradient(to bottom, var(--color-blue-light), var(--color-blue-dark));
+            }
+           
+            &-3 {
+                background-image: linear-gradient(to bottom left, var(--color-orange-light), var(--color-orange-dark));
+            }
+
+            
+        }
+        
+        &--back {
+            &-1 {
+                background-image: linear-gradient(to right, var(--color-orange-light), var(--color-orange-dark));
+                transform: rotateY(-180deg);
+            }
+           
+            &-2 {
+                background-image: linear-gradient(to bottom, var(--color-blue-light), var(--color-blue-dark));
+                transform: rotateX(-180deg);
+            }
+           
+            &-3 {
+                background-image: linear-gradient(to top right, var(--color-orange-light), var(--color-orange-dark));
+                transform: rotate3d(1, 1, 0, -180deg);
+            }
+
+        }
+
+        
+    }
+    
+    &:hover &__side--front-1 {
+        transform: rotateY(180deg);
+    }
+
+    &:hover &__side--back-1 {
+        transform: rotateY(0deg);
+    }
+    
+    &:hover &__side--front-2 {
+        transform: rotateX(180deg);
+    }
+
+    &:hover &__side--back-2 {
+        transform: rotateX(0deg);
+    }
+    
+    &:hover &__side--front-3 {
+        transform: rotate3d(1, 1, 0, 180deg);
+    }
+
+    &:hover &__side--back-3 {
+        transform: rotate3d(1, 1, 0, 0deg);
+    }
+
+}
